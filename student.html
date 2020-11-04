@@ -2,31 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
     <title>Student Bio</title>
+    <style>
+        h1 {
+            background-color: 	#404040;   /* Background of the heading will be black.*/
+            margin-bottom: 50px; /* Put a 15pixel margin at the bottom of the heading*/
+            font-size: 40px ;
+            font-weight: bold;
+            color: white;  /* This will colour the heading font white.*/
+            text-align:center; /*Align the text to the centre of its enclosing element eg. Div.*/
+            padding-top: 20px; /*Generate space on the top of H1 element */
+            padding-bottom: 20px; /*Generate space at the bottom of H1 element */
+        }
+
+        img {
+            margin-left: left;
+            margin-right: left;
+            display: block;
+            width:200px;
+            height:200px;
+            
+        }
+
+        .column {
+            float: left;
+            width: 30%;
+            padding:5px;
+
+        }
+
+        .left {
+            width:20%;
+        }
+
+        .middle {
+            width:40%;
+        }
+
+    
+
+        
+    
+    </style>
 </head>
 
 
 <body>
 
-    <h1>Student Bio</h1>
-    <h2>Student Name: Alisha Panday</h2>
-    <h2>Student ID: 10317725</h2>
-    <img id = "AP" src = "https://s31450.pcdn.co/wp-content/uploads/2017/06/iStock-609683672-studying.jpg"
-     width = "150" height = "" />
-     <br  />
 
-     <p>My Name is Alisha. Bootcamp student. Currently studying at UWA.</p>
-     <p>I work in Fortis Consulting as a program developer</p>
+  <h1>Student Bio</h1>
+  
+   
+  <div class = "row">
+      <div class = "column left">
+        <h2> Alisha Panday</h2>
+        <img id = "AP" src = "https://ca.slack-edge.com/T01C4AHFYNB-U01CQ0V3VQV-3f9d7fcdf9c3-512" />
+      </div>
 
-     <h2>Contact Info</h2>
-    <address>
-     <ul>
-         <li>Email <a href = "mailto:panday.alisha90@gmail.com">panday.alisha90@gmail.com</a></li>
-         <li>GitHub<a href = "https://github.com/AlishaPanday">Alisha Panday</a></li>
-         <li>Portfolio:<a href = "#target">Comming Soon</a></li>
-     </ul>
-    </address>
-    
+      <div class = "column middle">
+        <br  />
+        <br   />
+        <br   />
+        
+        <p>My Name is Alisha. Bootcamp student. Currently studying at UWA.<br  />
+            I work as a Program Developer and also currently studying at UWA Bootcamp.<br  />
+            I am currently learning about Git bash commands, HTML and CSS. 
+
+        </p>
+        
+      </div>
+
+      <div class = "column">
+        <h2>Contact Info</h2>
+        <address>
+            <ul>
+                <li>Email <a href = "mailto:panday.alisha90@gmail.com">panday.alisha90@gmail.com</a></li>
+                <li>GitHub<a href = "https://github.com/AlishaPanday">Alisha Panday</a></li>
+                <li>Portfolio:<a href = "#target">Comming Soon</a></li>
+            </ul>
+        </address>
+       
+      </div>
+  </div>
+
+  
 </body>
 </html>
